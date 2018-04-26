@@ -19,7 +19,7 @@ public class FileTest {
 		
 		try {
 			fileArray = Files.readAllBytes(filePath);
-			ans = Double.parseDouble(new String(fileArray));
+//			ans = Double.parseDouble(new String(fileArray));
 		} catch (NumberFormatException e) {
 			System.err.println("El último valor almacenado no es un número válido.");
 		} catch (NoSuchFileException e){
